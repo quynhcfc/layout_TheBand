@@ -1,105 +1,108 @@
 /* PC */
 
 @media (min-width: 1024px) {
-    #header {
-        overflow: visible;
-    }
+  #header {
+    overflow: visible;
+  }
 }
-
 
 /* Tablet && Mobile  */
 
 @media (max-width: 1023px) {
-    .btn {
-        width: 100%;
-        padding: 15px 25px;
-    }
-    .slider-text {
-        margin: 0 !important;
-    }
-    .slider-description {
-        margin-top: 10px !important;
-    }
-    .contact-detail {
-        font-size: 18px;
-        line-height: 40px;
-    }
-    #footer .copyright a {
-        font-size: 25px !important;
-    }
+  .btn {
+    width: 100%;
+    padding: 15px 25px;
+  }
+  .slider-text {
+    margin: 0 !important;
+  }
+  .slider-description {
+    margin-top: 10px !important;
+  }
+  .contact-detail {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  #footer .copyright a {
+    font-size: 25px !important;
+  }
 }
-
 
 /* Tablet */
 
 @media (max-width: 1023px) and (min-width: 740px) {
-    #header {
-        overflow: visible;
-    }
+  #header {
+    overflow: visible;
+  }
 }
-
 
 /* Mobile */
 
 @media (max-width: 739px) {
-    #header {
-        overflow: hidden;
-    }
-    #nav {
-        display: block;
-    }
-    #nav>li.nav-items {
-        display: block;
-    }
-    #nav>li:first-child {
-        display: inline-block;
-    }
-    #nav .sub-nav {
-        position: initial;
-        background: #f0f0f0;
-    }
-    #nav .sub-nav li {
-        width: 100%;
-    }
-    #nav .sub-nav li a {
-        padding: 5px 40px;
-    }
-    #search-btn {
-        display: none;
-    }
-    .menu-mobile-btn {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-    #content-intro .members-items {
-        width: 100%;
-    }
-    #content-intro .members-img {
-        width: 60%;
-    }
-    .tour-places-items {
-        width: 100%;
-        margin-bottom: 16px;
-    }
-    .tour-places-img {
-        width: 100%;
-        height: 260px;
-    }
-    .contact-detail,
-    .contact-form {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .contact-detail {
-        margin-bottom: 20px;
-    }
-    .contact-detail>p {
-        margin-bottom: 5px;
-    }
-    .contact-form div:first-child input {
-        width: 100%;
-        margin-right: 0;
-    }
+  #header {
+    overflow: hidden;
+  }
+  #nav {
+    display: block;
+  }
+  #nav > li.nav-items {
+    display: block;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav .sub-nav {
+    position: initial;
+    background: #f0f0f0;
+  }
+  #nav .sub-nav li {
+    width: 100%;
+  }
+  #nav .sub-nav li a {
+    padding: 5px 40px;
+  }
+  #search-btn {
+    display: none;
+  }
+  .menu-mobile-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #content-intro .members-items {
+    width: 100%;
+  }
+  #content-intro .members-img {
+    width: 60%;
+  }
+  .tour-places-items {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .tour-places-img {
+    width: 100%;
+    height: 260px;
+  }
+  .contact-detail,
+  .contact-form {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact-detail {
+    margin-bottom: 20px;
+  }
+  .contact-detail > p {
+    margin-bottom: 5px;
+  }
+  .contact-form div:first-child input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .slider .slider-description {
+    font-size: 16px;
+  }
+  .slider .slider-heading {
+    font-size: 30px;
+  }
 }
